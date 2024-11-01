@@ -1,0 +1,11 @@
+.home-background {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
+    url('./../../assets/background.jpg');
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+}
+
