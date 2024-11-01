@@ -1,5 +1,6 @@
 import React from 'react';
 import RootRoute from './routes/RootRoute';
+import './styles/_global.scss';
 
 function App() {
   return (

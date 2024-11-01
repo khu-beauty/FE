@@ -1,0 +1,47 @@
+.detail-section {
+    padding-top: 160px;
+    text-align: center;
+    height: 100vh;
+
+    &-logo {
+        opacity: 0;
+        animation: scaleUp 1s forwards; /* 애니메이션 적용 */
+        animation-delay: 0.2s;
+    }
+
+    &-des {
+        opacity: 0;
+        color : rgba(74, 78, 82, 1);
+        margin-bottom: 36px;
+        animation: fadeIn 1s forwards; /* 애니메이션 적용 */
+        animation-delay: 1.0s;
+    }
+
+    &-howto {
+        opacity: 0;
+        margin-bottom: 40px;
+        animation: fadeIn 1s forwards; /* 애니메이션 적용 */
+        animation-delay: 1.5s;
+    }
+
+    &-button {
+        opacity : 0;
+        animation: fadeIn 1s forwards; /* 애니메이션 적용 */
+        animation-delay: 2.0s;
+    }
+
+    @keyframes scaleUp {
+        to {
+            opacity: 1;
+            scale: 1.2;
+        }
+    }
+   
+    @keyframes fadeIn {
+        to {
+            opacity: 1; /* 최종 상태에서 불투명 */
+        }
+    }
+
+}
+

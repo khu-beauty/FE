@@ -2,16 +2,11 @@
     justify-content: center;
     height: 100%;
     margin: 0 auto;
-    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3)), 
     url('./../../assets/background.jpg');
     background-size: cover;
     transition: background-image 1s ease-in-out;
 }
 
-.home-content-wrapper {
-    height: 100%;
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-}
+
 
